@@ -1,21 +1,54 @@
+
+```markdown
 # OCR Chatbot Frontend
 
-This project is the **frontend** of an OCR-based chatbot application, where users can upload a PDF, ask questions about the content, and receive answers. The app communicates with a FastAPI backend and handles authentication with JWT tokens.
-
-## Main Technologies Used
-
-- **React**: JavaScript library for building user interfaces.
-- **Tailwind CSS**: Utility-first CSS framework for styling.
-- **Axios**: For making HTTP requests to the backend.
-- **React Router DOM**: For routing and page navigation.
-- **JWT**: For handling authentication.
+This is the **frontend** for the OCR chatbot application, built with React and styled using Tailwind CSS. It communicates with a FastAPI backend to handle PDF uploads, question-answering, and user authentication.
 
 ## Getting Started
 
+### Prerequisites
+
+- **Node.js** (version 12 or higher)
+- **npm** (comes with Node.js) or **yarn** (optional)
+
 ### 1. Clone the Repository
 
-Start by cloning the repository to your local machine:
+```bash
+git clone https://github.com/usvishnuprakash/doument_ocr_application_react.git
+cd doument_ocr_application_react
+```
+
+### 2. Install Dependencies
 
 ```bash
-git clone https://github.com/usvishnuprakash/doument_ocr_application_react.gi
-cd doument_ocr_application_react
+npm install
+```
+
+Or, if you're using **yarn**:
+
+```bash
+yarn install
+```
+
+### 3. Run the Application
+
+The application will run on **http://localhost:3006**:
+
+```bash
+npm start
+```
+
+Or, if using **yarn**:
+
+```bash
+yarn start
+```
+
+
+
+
+```
+
+
+- **Runs on port 3006**: Specified in the "Run the Application" section.
+
